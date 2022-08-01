@@ -11,3 +11,7 @@ body{
 .text-blue{
   color: #2937f0;
 }
+
+.banner{
+  min-height: calc(100vh - 80px);
+}
