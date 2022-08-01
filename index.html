@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <header class="r">
+  <header class="">
     <nav class="navbar navbar-expand-lg bg-light py-3 shadow">
       <div class="container">
         <a class="navbar-brand" href="#">Bootstrap</a>
@@ -40,12 +40,13 @@
     </nav>
   </header>
   <main>
-    <section>
+    <!-- top banner -->
+    <section class="my-5">
       <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-md-6">
             <div>
-              <h1 class="display-2 fw-bold">Showcase your app beautifully.</h1>
+              <h1 class="display-2 fw-bold text-blue">Showcase your app beautifully.</h1>
               <p class="fs-5">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
               <div>
                 <a href="#"><img src="images/google-play.png" alt=""></a>
@@ -54,11 +55,18 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div>
-              <img src="images/banner.png" alt="">
+            <div class="d-flex justify-content-center">
+              <img class="img-fluid" src="images/banner.png" alt="">
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <!-- heading -->
+    <section class="background-gradient py-5 d-flex justify-content-center">
+      <div class="text-center w-50">
+        <h1 class="mb-4 text-white">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</h1>
+        <img src="images/tnw-logo.svg" width="" height="50" alt="">
       </div>
     </section>
   </main>
